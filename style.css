@@ -1,4 +1,13 @@
 body{
     font-family: 'Abel', sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(166 153 177);
 }
+
+.container {
+    flex-direction: row;
+    display: flex;  
+  }
+
+  .item{
+    flex-grow: 1;
+  }
